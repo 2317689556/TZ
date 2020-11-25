@@ -29,5 +29,6 @@
         <table id="tab1"></table>
     </div>
 </div>
+<%--layui--%>
 </body>
 </html>
