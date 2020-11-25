@@ -1,6 +1,8 @@
 package spring.pojo;
 
+import lombok.Data;
 
+@Data
 public class PbQuanX {
 
   private long id;
