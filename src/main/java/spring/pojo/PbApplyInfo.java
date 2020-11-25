@@ -1,4 +1,4 @@
-package com.sample;
+package spring.pojo;
 
 
 public class PbApplyInfo {
