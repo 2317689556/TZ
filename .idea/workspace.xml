@@ -2,55 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0870ce28-f704-4d7f-8b95-8978d2d98d5d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/controller/CJLController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/dao/CJLMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/service/CJLService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CJLMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/个人注册.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/企业注册.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/委托人.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/竞买人.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/背景.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registered/jmr/gr_registered.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registered/jmr/jmr_registered.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registered/registered.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/controller/HJLController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/controller/KXPController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/dao/HJLMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/dao/KXPMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbApplyDetailInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbApplyInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbBiddingRules.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbContractInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbEnterprise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbFileImgInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbFileInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbItemApplyInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbItemInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbObjectInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbObjectShow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbQuanX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbQuoteInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbResultInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbSupplyInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbWordTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/PbWordTemplateDatail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/service/HJLService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/service/KXPService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/HJLMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/KXPMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/controller/KXPController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/dao/KXPMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/service/KXPService.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/nicenav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/xinwen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.nicenav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsps/firstpage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/controller/CJLController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/dao/CJLMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/service/CJLService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CJLMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/zzsc.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/zzsc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsps/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/个人注册.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/企业注册.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/委托人.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/竞买人.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/背景.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsps/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registered/jmr/gr_registered.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registered/jmr/jmr_registered.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registered/registered.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,11 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/login.jsp">
+      <file leaf-file-name="firstpage.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/firstpage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="40">
+              <caret line="13" column="72" lean-forward="true" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -116,7 +99,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../Tools/apache-maven-3.5.4" />
+        <option name="mavenHome" value="D:/../Tools/apache-maven-3.5.4" />
         <option name="userSettingsFile" value="D:\tools\Tools\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -139,53 +122,112 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TZ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TZ" type="462c0819:PsiDirectoryNode" />
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TZ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TZ" type="462c0819:PsiDirectoryNode" />
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TZ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TZ" type="462c0819:PsiDirectoryNode" />
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TZ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TZ" type="462c0819:PsiDirectoryNode" />
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TZ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TZ" type="462c0819:PsiDirectoryNode" />
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TZ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TZ" type="462c0819:PsiDirectoryNode" />
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="layui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TZ-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TZ-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -207,7 +249,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace/vue-learn" />
+    <property name="last_opened_file_path" value="D:/workspace/vue-learn" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -223,12 +265,9 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\tools\bgs\1808A_idea\TZ\src\main\webapp\registered\jmr" />
-      <recent name="D:\tools\bgs\1808A_idea\TZ\src\main\webapp\registered" />
-      <recent name="F:\idea\workspace2\aoyo\src\main\java\spring\dao" />
-      <recent name="F:\idea\kaoshi\hospital\src\main\resources\static\js" />
-      <recent name="F:\idea\kaoshi\hospital\src\main\resources\static\css" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="spring.dao" />
+      <recent name="spring.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\tools\bgs\1808A_idea\TZ\src\main\webapp\static" />
@@ -241,9 +280,12 @@
       <recent name="spring.utils" />
       <recent name="spring.pojo" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="spring.dao" />
-      <recent name="spring.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\tools\bgs\1808A_idea\TZ\src\main\webapp\registered\jmr" />
+      <recent name="D:\tools\bgs\1808A_idea\TZ\src\main\webapp\registered" />
+      <recent name="F:\idea\workspace2\aoyo\src\main\java\spring\dao" />
+      <recent name="F:\idea\kaoshi\hospital\src\main\resources\static\js" />
+      <recent name="F:\idea\kaoshi\hospital\src\main\resources\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -788,40 +830,37 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100000" />
+    <option name="totallyTimeSpent" value="204000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3290461" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="right" id="Word Book" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.18959913" />
-      <window_info anchor="bottom" id="Spring" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936078" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4986631" visible="true" weight="0.17217484" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3290461" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.3290461" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="5" sideWeight="0.5013369" side_tool="true" weight="0.17217484" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.18959913" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32936078" />
@@ -830,6 +869,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -846,11 +886,10 @@
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1101,13 +1140,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/registered/jmr/gr_registered.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/controller/CJLController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1216,11 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1370,11 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1413,6 +1435,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/firstpage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="13" column="72" lean-forward="true" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
         </state>
       </provider>
     </entry>
