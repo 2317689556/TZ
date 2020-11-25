@@ -20,7 +20,7 @@ public class UserController {
     public String login(User user, HttpSession session) {
         System.out.println("进来了");
         User user1 = userService.login(user);
-        if (user1 != null) {
+        if (user1!= null) {
             session.setAttribute("USER", user1);
             System.out.println(1);
             return "index";

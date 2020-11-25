@@ -27,13 +27,15 @@
 <div id="container">
     <div id="output">
         <div class="containerT">
-            <h1>用户登录</h1>
+            <h1>台州市公共资源交易管理系统</h1>
+            <br/> <br/> <br/>
+            <h4>请输入用户名和密码</h4>
             <form class="form" action="/user/login" method="post">
-                <input type="text" id="inputEmail3" placeholder="用户名" name="username">
-                <input type="password"  id="inputPassword3" placeholder="密码" name="password">
+            <input type="text" id="inputEmail3" placeholder="用户名" name="username">
+            <input type="password"  id="inputPassword3" placeholder="密码" name="password">
                 <button type="submit" id="entry_btn">登录</button>
                 <div id="prompt" class="prompt"></div>
-                <a style="color: #9b59b6" href="phone.jsp">忘记密码</a>
+
             </form>
         </div>
     </div>
