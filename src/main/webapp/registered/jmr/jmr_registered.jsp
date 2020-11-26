@@ -16,10 +16,11 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 
     <style type="text/css">
-        .center{
-            text-align:center;
+        .center {
+            text-align: center;
         }
-        .center_text{
+
+        .center_text {
             position: fixed;
             top: 200px;
             left: 0px;
@@ -30,17 +31,25 @@
     </style>
 </head>
 <body>
-<img src="/images/背景.png" width="100%" height="100%" />
 <div class="center">
+    <img src="/images/背景.png" width="100%" height="100%"/>
     <span class="center_text">
         <h3>—请选择注册类型—</h3>
         <br>
-        <a href="#" target="_top"><img src="/images/企业注册.png" alt="企业"></a>
+        <a href="qy_registered.jsp" target="_top"><img src="/images/企业注册.png" alt="企业"></a>
         <br>
         <br>
         <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="gr_registered.jsp" target="_top"><img src="/images/个人注册.png" alt="个人"></a>
+        <a href="gr_registered.jsp" target="_top" style="margin-right: 37px"><img src="/images/个人注册.png" alt="个人"></a>
+        <br>
+        <br>
+        <br>
+        <div class="layui-form-item">
+			<div class="layui-input-block">
+				<a href="/registered/registered.jsp" style="margin-left: 347px" target="_top">关闭</a>
+			</div>
+		</div>
 　　</span>
 </div>
 </body>

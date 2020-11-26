@@ -25,8 +25,8 @@
             <br/> <br/> <br/>
             <h4>请输入用户名和密码</h4>
             <form class="form" method="post">
-            <input type="text" id="inputEmail3" placeholder="用户名" name="username">
-            <input type="password"  id="inputPassword3" placeholder="密码" name="password">
+                <input type="text" id="inputEmail3" placeholder="用户名" name="username">
+                <input type="password"  id="inputPassword3" placeholder="密码" name="password">
                 <button type="submit" id="entry_btn">登录</button>
                 <br>
                 <br>
@@ -37,33 +37,33 @@
 </div>
 
 <script type="text/javascript">
-   /* $(function(){
-        Victor("container", "output");   //登陆背景函数
-        $("#entry_name").focus();
-        $(document).keydown(function(event){
-            if(event.keyCode==13){
-                $("#entry_btn").click();
+    /* $(function(){
+         Victor("container", "output");   //登陆背景函数
+         $("#entry_name").focus();
+         $(document).keydown(function(event){
+             if(event.keyCode==13){
+                 $("#entry_btn").click();
+             }
+         });
+     });*/
+    $("#entry_btn").click(function(){
+        var username=$("#username").val();
+        var password=$("#password").val();
+        $.ajax({
+            type:"post",
+            url:"${pageContext.request.contextPath}/login/LoginUser",
+            dataType:"json",
+            data:{username:username,password:password},
+            success:function(data){
+                if(data){
+                    window.location.href="${pageContext.request.contextPath}/jsps/index.jsp";
+                }else{
+                    alert("账号或密码错误!")
+                }
             }
         });
-    });*/
-   $("#entry_btn").click(function(){
-       var username=$("#username").val();
-       var password=$("#password").val();
-       $.ajax({
-           type:"post",
-           url:"${pageContext.request.contextPath}/login/LoginUser",
-           dataType:"json",
-           data:{username:username,password:password},
-           success:function(data){
-               if(data){
-                   window.location.href="${pageContext.request.contextPath}/jsps/index.jsp";
-               }else{
-                   alert("账号或密码错误!")
-               }
-           }
-       });
-   });
+    });
 </script>
-<img src="/img/背景.png" width="100%" height="100%" />
+<img src="/images/背景.png" width="100%" height="100%" />
 </body>
 </html>
