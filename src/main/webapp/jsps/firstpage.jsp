@@ -20,15 +20,15 @@
     <link rel="stylesheet" href="/layui/css/layui.css">
 </head>
 <style type="text/css">
-    #F1{
+  /*  #F1{
         width:100%
-    }
+    }*/
     #F2{
         width:100%;
         height:100%;
         background: white;
     }
-    #bg {
+   /* #bg {
         background-color: rgb(102, 132, 228);
         padding: 10px;
     }
@@ -36,7 +36,7 @@
         background: white;
         padding: 5px;
         float: right;
-    }
+    }*/
     #F4{
         padding-left: 22%;
         padding-right: 20%;
@@ -95,11 +95,13 @@
 
 </style>
 <body>
-<div id="F1">
+<%@include file="/jsps/toubu.jsp"%>
+<%--<div id="F1">
 <img src="/images/1.png" style="width: 100%">
-</div>
+</div>--%>
 <div id="F2">
-    <div id="F3">
+    <%@include file="/jsps/daohang.jsp"%>
+    <%--<div id="F3">
         <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">工程交易</button></a>
         <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">政府采购</button></a>
         <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">产权交易</button></a>
@@ -120,7 +122,7 @@
             </ul>
             <div id="buoy"></div>
         </div>
-    </div>
+    </div>--%>
   <div id="F4">
     <strong>滚动新闻：金松主任率团赴南京、贵州、杭州交易中心考察调研</strong>
       &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
