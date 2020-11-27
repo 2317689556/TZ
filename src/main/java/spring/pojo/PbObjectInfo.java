@@ -52,6 +52,6 @@ public class PbObjectInfo {
   private String isDel;
   private long showId;
   private long imgId;
-
+  private String itemName;
 
 }

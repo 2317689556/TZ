@@ -122,8 +122,8 @@
                 <p> 第二十五条  本细则自发布之日起施行。
             </div>
             <div>
-                <button class="text-center" >上一步</button>
-                <button class="text-center" >下一步</button>
+                <a href="info.jsp">上一步</a>
+                <a href="payprice.jsp">下一步</a>
 
             </div>
 
