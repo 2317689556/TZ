@@ -102,7 +102,7 @@
 <div id="F2">
     <%@include file="/jsps/daohang.jsp"%>
     <%--<div id="F3">
-        <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">工程交易</button></a>
+        <a href="project.jsp" target="_blank"><button type="button" class="layui-btn layui-btn-normal">工程交易</button></a>
         <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">政府采购</button></a>
         <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">产权交易</button></a>
         <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">土地交易</button></a>

@@ -33,12 +33,19 @@
 <img src="/images/背景.png" width="100%" height="100%" />
 <div class="center">
     <span class="center_text">
-        <h3>—请选择注册类型—</h3>
-        <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="jmr/jmr_registered.jsp" target="_top"><img src="/images/竞买人.png" alt="竞买人"></a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="#" target="_top"><img src="/images/委托人.png" alt="委托人"></a>
+        <h3>—请选择注册类型—</h3><br><br>
+        <div style="margin-right: 73px">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="jmr/jmr_registered.jsp" target="_top"><img src="/images/竞买人.png" alt="竞买人"></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="wtr/wtr_registered.jsp" target="_top"><img src="/images/委托人.png" alt="委托人"></a>
+        </div>
+        <br><br><br>
+        <div class="layui-form-item" style="margin-left: 115px">
+			<div class="layui-input-block">
+				<a href="/jsps/login.jsp" style="margin-left: 347px" target="_top">返回首页</a>
+			</div>
+		</div>
 　　</span>
 </div>
 </body>

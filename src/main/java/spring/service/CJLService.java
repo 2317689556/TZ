@@ -2,6 +2,7 @@ package spring.service;
 
 import org.springframework.stereotype.Service;
 import spring.dao.CJLMapper;
+import spring.pojo.PbUser;
 
 import javax.annotation.Resource;
 
@@ -9,5 +10,4 @@ import javax.annotation.Resource;
 public class CJLService {
     @Resource
     private CJLMapper cjlMapper;
-
 }

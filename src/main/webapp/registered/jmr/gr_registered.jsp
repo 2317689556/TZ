@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>台州前台系统 个人注册</title>
     <link rel="stylesheet" href="/layui/css/layui.css" media="all">
     <style>
         .xid {
@@ -10,8 +10,14 @@
     </style>
 </head>
 <body background="/images/背景.png">
-<div style="margin:150px;margin-left: 700px">
+<div style="margin:90px;margin-left: 700px;">
     <form class="layui-form" action="">
+        <div class="layui-form-item" style="margin:50px;margin-left: 80px;">
+            <h1><span class="sid">—</span>&nbsp;&nbsp;个人注册信息填写&nbsp;&nbsp;<span class="sid">—</span></h1>
+            <br>
+            <h3><span class="xid">报名须知：请如实填写报名信息,以便报名资料审核顺利通过</span></h3>
+        </div>
+
         <div class="layui-form-item">
             <label class="layui-form-label">个人名称<span class="xid">*</span>：</label>
             <div class="layui-input-block">

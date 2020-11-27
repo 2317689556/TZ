@@ -3,6 +3,11 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="spring.dao.ZFMapper">
+    <select id="findInfo" resultType="PbObjectInfo">
+		select object_code,object_name,cmcost_amount,deposit_pay_end_time from pb_object_info
+	</select>
 
-
+	<select id="findInfoOrder" resultType="PbObjectInfo">
+		 SELECT object_code,object_name,item_name,cmcost_amount,deposit_pay_end_time from pb_object_info INNER JOIN pb_item_info ON pb_object_info.item_id=pb_item_info.seq_id
+	</select>
 </mapper>
