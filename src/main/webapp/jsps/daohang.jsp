@@ -32,16 +32,16 @@
 </style>
 <body>
 <div id="F3">
-    <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">工程交易</button></a>
-    <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">政府采购</button></a>
-    <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">产权交易</button></a>
-    <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal">土地交易</button></a>
+    <button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=1)">工程交易</button>
+    <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=2)">政府采购</button></a>
+    <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=3)">产权交易</button></a>
+    <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=4)">土地交易</button></a>
 </div>
 <!--导航栏-->
 <div id="bg">
     <div id="container">
         <ul id="nav">
-            <li><a href="http://sc.chinaz.com/" target="_blank">首页</a></li>
+            <li><a href="/jsps/firstpage.jsp" target="_blank">首页</a></li>
             <li><a href="http://sc.chinaz.com/" target="_blank">信息公开</a></li>
             <li><a href="http://sc.chinaz.com/" target="_blank">信用平台</a></li>
             <li><a href="http://sc.chinaz.com/" target="_blank">政策法规</a></li>
@@ -57,5 +57,11 @@
 <script type="text/javascript">
     /*导航栏*/
     $.nicenav(300);
+    var ids="";
+    function gc(id) {
+        ids=id
+      localStorage.setItem("id",ids);
+        location.href="/PbObject/PbObjectFindAllById?id="+ids;
+    }
 </script>
 </html>
