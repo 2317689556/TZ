@@ -21,7 +21,7 @@
     <div class="card">
         <div class="wrapper">
             <div class="colorProd"></div>
-            <div class="imgProd" style="background:url(/images/111.jpg) 100% 0 no-repeat;"></div>
+            <div class="imgProd" style="background:url(${p.fileImgUrl}) 100% 0 no-repeat;"></div>
             <div class="infoProd">
 <%--                <p class="nombreProd">${p.seqId}</p>--%>
                 <p class="nombreProd">${p.objectName}</p>

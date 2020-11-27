@@ -4,7 +4,22 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="spring.dao.FZYMapper">
     <select id="AbnormalFindAllById" resultType="fzytest">
-       select a.seq_id, a.object_name,b.show_current_price,b.show_estimated_price,b.show_estimate,b.show_look,show_sign_up
-from pb_object_info a,pb_object_show b where a.show_id=b.show_id and b.show_engineer_id=#{id}
+       SELECT
+	a.seq_id,
+	a.object_name,
+	b.show_current_price,
+	b.show_estimated_price,
+	b.show_estimate,
+	b.show_look,
+	b.show_sign_up,
+	c.file_img_url
+FROM
+	pb_object_info a,
+	pb_object_show b,
+	pb_file_img_info c
+WHERE
+	a.show_id = b.show_id
+	AND a.img_id = c.img_id
+	AND b.show_engineer_id = #{id}
     </select>
 </mapper>
