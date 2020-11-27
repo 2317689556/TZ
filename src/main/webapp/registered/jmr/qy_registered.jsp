@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>台州前台系统 企业注册</title>
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="/layui/css/layui.css" media="all">
     <style>
         .xid {
@@ -53,7 +54,7 @@
                     <div class="layui-form-item">
                         <label class="layui-form-label">联系人手机号<span class="xid">*</span>：</label>
                         <div class="layui-input-block">
-                            <input type="text" name="title" placeholder="请输入联系人手机号" class="layui-input">
+                            <input type="text" id="lxrphone" name="title" placeholder="请输入联系人手机号" class="layui-input">
                         </div>
                     </div>
                 </td>
@@ -63,7 +64,7 @@
                     <div class="layui-form-item">
                         <label class="layui-form-label">登录密码<span class="xid">*</span>：</label>
                         <div class="layui-input-block">
-                            <input type="text" name="title" placeholder="请输入登录密码" class="layui-input">
+                            <input type="password" id="dlmm" name="title" placeholder="请输入登录密码" class="layui-input">
                         </div>
                     </div>
                 </td>
@@ -71,7 +72,7 @@
                     <div class="layui-form-item">
                         <label class="layui-form-label">联系人身份证<span class="xid">*</span>：</label>
                         <div class="layui-input-block">
-                            <input type="text" name="title" placeholder="请输入联系人身份证" class="layui-input">
+                            <input type="text" id="lxrID" name="title" placeholder="请输入联系人身份证" class="layui-input">
                         </div>
                     </div>
                 </td>
@@ -81,7 +82,7 @@
                     <div class="layui-form-item">
                         <label class="layui-form-label">请再次输入登录密码<span class="xid">*</span>：</label>
                         <div class="layui-input-block">
-                            <input type="text" name="title" placeholder="请再次输入登录密码" class="layui-input">
+                            <input type="password" id="zcdlmm" name="title" placeholder="请再次输入登录密码" class="layui-input">
                         </div>
                     </div>
                 </td>
@@ -126,8 +127,18 @@
                 <td>
                     <div class="layui-form-item">
                         <label class="layui-form-label">验证码<span class="xid">*</span>：</label>
-                        <div class="layui-input-block">
-                            <input type="text" name="title" placeholder="请输入验证码" class="layui-input" style="width: 50%">
+                        <div class="form-group ">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="fa fa-id-card-o"></i>
+                                </span>
+                                <input type="text" class="form-control" id="codestext" name="codestext"
+                                       style="width: 130px;">
+                                <div class="input-group-addon">
+                                    <img id="authImg" src="/cjl/autoImage" style="height: 26px;width: 70px;"/>
+                                </div>
+                            </div>
+                            <span class="help-block">&nbsp;</span>
                         </div>
                     </div>
                 </td>
@@ -137,7 +148,7 @@
                     <div class="layui-form-item">
                         <label class="layui-form-label">法人身份证<span class="xid">*</span>：</label>
                         <div class="layui-input-block">
-                            <input type="text" name="title" placeholder="请输入法人身份证" class="layui-input">
+                            <input type="text" id="frID" name="title" placeholder="请输入法人身份证" class="layui-input">
                         </div>
                     </div>
                 </td>
@@ -157,4 +168,94 @@
     </form>
 </div>
 </body>
+
+
+<script>
+
+    $(function () {
+        $("#lxrphone").blur(function () {
+            var phone = $(this).val();
+            if (!(/^1(3|4|5|6|7|8|9)\d{9}$/.test(phone))) {
+                alert("手机号码格式有误，请重填")
+            }
+        });
+        $("#frphone").blur(function () {
+            var phone = $(this).val();
+            if (!(/^1(3|4|5|6|7|8|9)\d{9}$/.test(phone))) {
+                alert("手机号码格式有误，请重填")
+            }
+        });
+        $("#dlmm").blur(function () {
+            var password = $(this).val();
+            if (!(/^\S{6,20}$/.test(password))) {
+                alert("密码格式错误！密码由6-20位字母，数字和符号组合，区分大小写!")
+            }
+        });
+        $("#zcdlmm").blur(function () {
+            var password = $(this).val();
+            if (!(/^\S{6,20}$/.test(password))) {
+                alert("密码格式错误！密码由6-20位字母，数字和符号组合，区分大小写!")
+            }
+        });
+        $("#lxrID").blur(function () {
+            var frid = $(this).val();
+            if (!(/^(\d{18,18}|\d{15,15}|\d{17,17}X)$/.test(frid))) {
+                alert("身份证号码格式有误，请重填")
+            }
+        });
+        $("#frID").blur(function () {
+            var frid = $(this).val();
+            if (!(/^(\d{18,18}|\d{15,15}|\d{17,17}X)$/.test(frid))) {
+                alert("身份证号码格式有误，请重填")
+            }
+        });
+
+
+        //刷新校验码
+        $("#authImg").click(function () {
+            $(this).attr("src", "/cjl/autoImage?date=" + new Date());
+        });
+        //校验码的验证
+        $("#codestext").blur(function () {
+            var _that = $(this);
+            $.ajax({
+                type: "post",
+                url: "/cjl/checkCodestext",
+                data: {
+                    "codestext": $(this).val()
+                },
+                dataType: "json",
+                error: function (error) {
+                    setError(_that, "校验码不正确!");
+                }, success: function (data) {
+                    if (data) {
+                        setOk(_that);
+                    } else {
+                        setError(_that, "校验码不正确!");
+                    }
+                }
+            });
+        });
+    });
+
+    /*验证成功，调用此方法*/
+    function setOk(obj) {
+        var _pdiv = obj.parents().parents(".form-group");
+        if (_pdiv.hasClass("has-error")) {
+            _pdiv.removeClass("has-error");
+        }
+        _pdiv.addClass("has-success");
+        obj.parents().nextAll("span.help-block").html("&nbsp;");
+    }
+
+    /*验证失败，调动此方法*/
+    function setError(obj, str) {
+        var _pdiv = obj.parents().parents(".form-group");
+        if (_pdiv.hasClass("has-success")) {
+            _pdiv.removeClass("has-success");
+        }
+        _pdiv.addClass("has-error");
+        obj.parents().nextAll("span.help-block").html(str);
+    }
+</script>
 </html>

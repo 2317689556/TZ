@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>台州前台系统 登录</title>
-    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
     <script src="/bootstrap/table/bootstrap-table.js"></script>
     <script src="/bootstrap/js/bootstrap-tab.js"></script>
     <script src="/bootstrap/js/bootstrap.js"></script>
@@ -25,9 +25,9 @@
             <br/> <br/> <br/>
             <h4>请输入用户名和密码</h4>
             <form class="form" method="post">
-                <input type="text" id="inputEmail3" placeholder="用户名" name="username">
-                <input type="password"  id="inputPassword3" placeholder="密码" name="password">
-                <button type="submit" id="entry_btn">登录</button>
+                <input type="text" id="userNum" placeholder="用户名" name="userNum" value="qqq">
+                <input type="password"  id="userPassword" placeholder="密码" name="userPassword" value="123">
+                <button type="submit" class="signIn t25 border_5" id="login_OK">登录</button>
                 <br>
                 <br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/registered/registered.jsp" target="_top">注册</a>
@@ -35,35 +35,32 @@
         </div>
     </div>
 </div>
+<img src="/images/背景.png" width="100%" height="100%" />
 
-<script type="text/javascript">
-    /* $(function(){
-         Victor("container", "output");   //登陆背景函数
-         $("#entry_name").focus();
-         $(document).keydown(function(event){
-             if(event.keyCode==13){
-                 $("#entry_btn").click();
-             }
-         });
-     });*/
-    $("#entry_btn").click(function(){
-        var username=$("#username").val();
-        var password=$("#password").val();
+
+
+
+
+<script>
+    $("#login_OK").click(function(){
+        var userNum=$("#userNum").val();
+        var userPassword=$("#userPassword").val();
         $.ajax({
             type:"post",
-            url:"${pageContext.request.contextPath}/login/LoginUser",
+            url:"${pageContext.request.contextPath}/cjl/Login",
             dataType:"json",
-            data:{username:username,password:password},
+            data:{userNum:userNum,userPassword:userPassword},
             success:function(data){
                 if(data){
-                    window.location.href="${pageContext.request.contextPath}/jsps/index.jsp";
+                    alert("1111")
+                    window.location.href="${pageContext.request.contextPath}/jsps/firstpage.jsp";
                 }else{
                     alert("账号或密码错误!")
                 }
             }
         });
+        alert("1")
     });
 </script>
-<img src="/images/背景.png" width="100%" height="100%" />
 </body>
 </html>

@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="tz@rm-bp1n43r616i2i5493so.mysql.rds.aliyuncs.com" uuid="7eea68c1-73c8-4f9a-a2fe-6338015cbc25">
+    <data-source name="tz@rm-bp1n43r616i2i5493so.mysql.rds.aliyuncs.com" uuid="fbbe5f3d-8080-45e5-b08b-df5447886072">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="demo@localhost" uuid="688bbf56-e0b4-4df7-b2ab-91013e42bb7a">
+      <database-info product="MySQL" version="5.5.27" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.47 ( Revision: fe1903b1ecb4a96a917f7ed3190d80c049b1de29 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:demo</introspection-schemas>
     </data-source>
   </component>
 </project>
