@@ -15,5 +15,6 @@ public class Fzytest {
     private String showEstimate;
     private String showLook;
     private String showSignUp;
+    private String fileImgUrl;
 
 }

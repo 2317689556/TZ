@@ -33,22 +33,22 @@
 <body>
 <div id="F3">
     <button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=1)">工程交易</button>
-    <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=2)">政府采购</button></a>
-    <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=3)">产权交易</button></a>
-    <a href="http://sc.chinaz.com/" target="_blank"><button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=4)">土地交易</button></a>
+    <button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=2)">政府采购</button>
+    <button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=3)">产权交易</button>
+    <button type="button" class="layui-btn layui-btn-normal" onclick="gc(this.id=4)">土地交易</button>
 </div>
 <!--导航栏-->
 <div id="bg">
     <div id="container">
         <ul id="nav">
-            <li><a href="/jsps/firstpage.jsp" target="_blank">首页</a></li>
-            <li><a href="http://sc.chinaz.com/" target="_blank">信息公开</a></li>
-            <li><a href="http://sc.chinaz.com/" target="_blank">信用平台</a></li>
-            <li><a href="http://sc.chinaz.com/" target="_blank">政策法规</a></li>
-            <li><a href="http://sc.chinaz.com/" target="_blank">办事指南</a></li>
-            <li><a href="http://sc.chinaz.com/" target="_blank">资料下载</a></li>
-            <li><a href="http://sc.chinaz.com/" target="_blank">联系我们</a></li>
-            <li><a href="http://sc.chinaz.com/" target="_blank">老网站</a></li>
+            <li><a href="/jsps/firstpage.jsp" target="_top">首页</a></li>
+            <li><a href="http://www.baidu.com/" target="_top">信息公开</a></li>
+            <li><a href="http://www.baidu.com/" target="_top">信用平台</a></li>
+            <li><a href="/jsps/rule.jsp" target="_top">政策法规</a></li>
+            <li><a href="http://www.baidu.com/" target="_top">办事指南</a></li>
+            <li><a href="http://www.baidu.com/" target="_top">资料下载</a></li>
+            <li><a href="http://www.baidu.com/" target="_top">联系我们</a></li>
+            <li><a href="http://www.baidu.com/" target="_top">老网站</a></li>
         </ul>
         <div id="buoy"></div>
     </div>

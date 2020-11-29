@@ -19,9 +19,9 @@
 <div class="contenedorCards">
 <c:forEach items="${list}" var="p">
     <div class="card">
-        <div class="wrapper">
+        <div class="wrapper" onclick="aa(this.seqId=${p.seqId})">
             <div class="colorProd"></div>
-            <div class="imgProd" style="background:url(/images/111.jpg) 100% 0 no-repeat;"></div>
+            <div class="imgProd" style="background:url(${p.fileImgUrl}) 100% 0 no-repeat;"></div>
             <div class="infoProd">
 <%--                <p class="nombreProd">${p.seqId}</p>--%>
                 <p class="nombreProd">${p.objectName}</p>
@@ -71,5 +71,12 @@
 </div>
 
 </body>
-
+<script>
+    var ids="";
+    function aa(seqId) {
+        ids=seqId
+        localStorage.setItem("seqId",ids);
+        location.href="/yhy/findById/"+ids;
+    }
+</script>
 </html>

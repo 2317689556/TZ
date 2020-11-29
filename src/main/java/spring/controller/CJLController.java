@@ -3,7 +3,8 @@ package spring.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import spring.pojo.PbClient;
+import spring.pojo.PbEnterprise;
 import spring.pojo.PbUser;
 import spring.pojo.utils.MD5Utils;
 import spring.pojo.utils.VerifyCodeUtils;
@@ -23,6 +24,7 @@ public class CJLController {
 
     //图片验证码
     @RequestMapping("/autoImage")
+    @ResponseBody
     public void autoImage(HttpServletResponse response, HttpSession session) throws IOException {
         response.setHeader("Pragma", "No-cache");
         response.setHeader("Cache-Control", "no-cache");
@@ -51,5 +53,54 @@ public class CJLController {
             return false;
         }
         return true;
+    }
+
+
+    //委托人添加
+    @RequestMapping("wtradd")
+    @ResponseBody
+    public boolean wtradd(PbClient client){
+        int i = cjlService.wtradd(client);
+        boolean b = false;
+        if(i!=0){
+            b = true;
+        }
+        return b;
+    }
+
+
+    //竞买人企业添加
+    @RequestMapping("qyadd")
+    @ResponseBody
+    public boolean qyadd(PbEnterprise enterprise){
+        int i = cjlService.qyadd(enterprise);
+        boolean b = false;
+        if(i!=0){
+            b = true;
+        }
+        return b;
+    }
+
+
+    //竞买人个人添加
+    @RequestMapping("gradd")
+    @ResponseBody
+    public boolean gradd(PbUser pbUser){
+        int i = cjlService.gradd(pbUser);
+        boolean b = false;
+        if(i!=0){
+            b = true;
+        }
+        return b;
+    }
+
+
+    //个人登录
+    @RequestMapping("LoginGr")
+    @ResponseBody
+    public PbUser LoginGr(String userNum, String userPassword, HttpSession session){
+        PbUser pbUser = cjlService.LoginGr(userNum, MD5Utils.md5(userPassword));
+        session.setAttribute("pbUser", pbUser);
+        return pbUser;
     }
 }

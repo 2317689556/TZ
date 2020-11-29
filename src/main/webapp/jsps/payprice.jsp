@@ -22,10 +22,10 @@
 
 <body>
 <div style="width: 1400px; height: 1400px; ">
-    <div class="container">
+
+    <%--<div class="container">
         <div class="row">
             <div class="span8">
-
                 <ul class="nav nav-pills">
                     <li class="active"><a href="#">首页</a></li>
                     <li><a href="#">信息公开</a></li>
@@ -38,7 +38,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div>--%>
     <div style="margin: 40px; margin-top: 20px; box-shadow: 0 0 4px black; height: 1200px; padding: 10px;">
         <table id="tab1">
             <div>

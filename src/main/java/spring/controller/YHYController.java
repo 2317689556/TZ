@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import spring.pojo.Yhy;
+import spring.pojo.*;
 import spring.service.YHYService;
 
 import javax.annotation.Resource;
@@ -25,6 +25,16 @@ public class YHYController {
 
         List<Yhy> y=yhyService.findById(seqId);
         model.addAttribute("y",y);
+        System.out.println(y);
         return "bidding";
+    }
+
+
+    /*登录*/
+    @RequestMapping("login")
+    @ResponseBody
+    public  User login(String passid,String password){
+        User u=yhyService.login(passid,password);
+        return u;
     }
 }

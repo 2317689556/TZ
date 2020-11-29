@@ -150,17 +150,17 @@
     <div id="ff2">
         <button type="button" class="layui-btn layui-btn-normal">用户登录</button>
         <div style="width: 300px; margin: 0;padding-top: 5px;padding-left: 10px">
-            <a href="http://sc.chinaz.com/" target="_blank"><img src="/images/login1.png"></a>
+            <a href="/jsps/login.jsp" target="_top"><img src="/images/login1.png"></a>
         </div>
         <div id="ff3">
         <div id="ff4">
-            <a href="http://sc.chinaz.com/" target="_blank"><img src="/images/login2.png"></a>
+            <a href="/registered/registered.jsp" target="_top"><img src="/images/login2.png"></a>
         </div>
         <div id="ff5">
-            <a href="http://sc.chinaz.com/" target="_blank"><img src="/images/login3.png"></a>
+            <a href="http://www.baidu.com/" target="_top"><img src="/images/login3.png"></a>
         </div>
         <div id="ff6">
-            <a href="http://sc.chinaz.com/" target="_blank"><img src="/images/login4.png"></a>
+            <a href="http://www.baidu.com/" target="_top"><img src="/images/login4.png"></a>
         </div>
         </div>
     </div>

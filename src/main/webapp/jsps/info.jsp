@@ -23,8 +23,10 @@
 <body>
 <%--<c:import url="utlis/background.jsp"/>--%>
 <%--<c:import url="utlis/broadside.jsp"/>--%>
-<div style="width: 1400px; height: 1400px; ">
-    <div class="container">
+<div style="width: 100% ">
+    <%@include file="/jsps/toubu.jsp"%>
+    <%@include file="/jsps/daohang.jsp"%>
+   <%-- <div class="container">
         <div class="row">
             <div class="span8">
 
@@ -39,7 +41,7 @@
                     <li><a href="#">老网站</a></li>
                 </ul>
             </div>
-        </div>
+        </div>--%>
     </div>
     <div style="margin: 40px; margin-top: 20px; box-shadow: 0 0 4px black; height: 1200px; padding: 10px;">
         <table id="tab1">

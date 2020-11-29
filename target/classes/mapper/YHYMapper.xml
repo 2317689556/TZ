@@ -4,5 +4,19 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="spring.dao.YHYMapper">
 
+    <!--标的详细信息-->
+    <select id="findById" resultType="yhy">
+select pb_file_img_info.file_img_url,pb_item_info.free_bid_len,pb_item_info.delay_bid_len,pb_object_info.priority_enter_name,pb_object_info.quote_increment,pb_object_info.cmcost_amount,case pb_object_info.trad when  '1' THEN '加价' ELSE '降价' END as trad,pb_object_info.bid_start_time,case pb_object_info.bid_status when '0' THEN '报名未截止' when '1' THEN '待竞价' when '2' THEN '自由竞价' when '3' THEN '延时竞价' ELSE '竞价结束' end as bidStatus,pb_object_info.start_price,pb_object_info.close_price,pb_object_info.up_rate
+from pb_object_info
+LEFT JOIN pb_item_info on pb_item_info.seq_id=pb_object_info.seq_id
+LEFT JOIN pb_file_img_info on pb_file_img_info.img_id=pb_object_info.img_id
+LEFT JOIN pb_apply_detail_info on pb_object_info.seq_id=pb_apply_detail_info.seq_id
+where 1=1
+       and pb_object_info.seq_id=#{seqId}
+    </select>
 
+    <!--登录-->
+    <select id="login" resultType="spring.pojo.User">
+        SELECT passid,password from (SELECT passid,password from pb_user union SELECT passid,password from pb_client union SELECT passid,password from pb_enterprise) alias where passid=#{passid} and password=#{password}
+    </select>
 </mapper>

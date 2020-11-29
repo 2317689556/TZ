@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper
-        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="spring.dao.CJLMapper">
 
+    <!--int wtradd(PbClient client);-->
+    <insert id="wtradd">
+        insert into pb_client
+        (cl_unit_name,cl_phone,passid,cl_fr_name,password,cl_fr_id_card,cl_address,cl_frphone)
+        values
+        (#{clUnitName},#{clPhone},#{passid},#{clFrName},#{password},#{clFrIdCard},#{clAddress},#{clFrphone})
+    </insert>
+
+    <!--int qyadd(PbEnterprise enterprise);-->
+    <insert id="qyadd">
+        insert into pb_enterprise
+        (ep_qyname,password,passid,ep_address,ep_fr_name,ep_fr_id_card,ep_name,ep_phone,ep_contacts_id_card,ep_bank_account,ep_bank_name)
+        values
+        (#{epQyname},#{password},#{passid},#{epAddress},#{epFrName},#{epFrIdCard},#{epName},#{epPhone},#{epContactsIdCard},#{epBankAccount},#{epBankName})
+    </insert>
+
+    <!--int gradd(PbUser pbUser);-->
+    <insert id="gradd">
+        insert into pb_user
+        (user_name,passid,user_idcard,password,user_phone,user_bank_account,user_bank_name)
+        values
+        (#{userName},#{passid},#{userIdcard},#{password},#{userPhone},#{userBankAccount},#{userBankName})
+    </insert>
+
+    <!--PbUser LoginGr(@Param("userNum") String userNum,@Param("userPassword") String userPassword);-->
+    <select id="LoginGr" resultType="spring.pojo.PbUser">
+        select pu.user_id,pu.user_num,pu.user_password from pb_user pu where user_num=#{userNum} and user_password=#{userPassword}
+    </select>
 </mapper>
